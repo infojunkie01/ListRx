@@ -95,11 +95,8 @@ const SearchRx = () => {
     <>
       <Jumbotron fluid className='text-light bg-primary'>
         <Container>
-          <h1>search for a prescription</h1>
+          <h1>Search for prescription by brand</h1>
           <Form onSubmit={handleFormSubmit}>
-            {/* <Alert dismissible onClose={() => setShowAlert(false)} show={showAlert} variant='danger'>
-          Something went wrong with your rx search!
-        </Alert> */}
             <Form.Row>
               <Col xs={12} md={8}>
                 <Form.Control
@@ -125,7 +122,7 @@ const SearchRx = () => {
         <h3 className="mb-3">
           {searchedRx.length
             ? `Viewing ${searchedRx.length} results:`
-            : 'search for a prescription to begin'}
+            : ''}
         </h3>
         <CardColumns>
           {searchedRx.map((rx) => {

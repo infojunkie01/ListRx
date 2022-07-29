@@ -36,7 +36,7 @@ type Mutation {
     addUser(username: String!, email: String!, password: String!): Auth
     login(email: String!, password: String!): Auth
     saveRx(rx: RxInput!): User
-    removeRx(productId: ID!): User
+    removeRx(rxId: ID!): User
 }
 `;
 

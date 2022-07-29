@@ -25,10 +25,12 @@ const SavedRx = () => {
         console.log(rxId)
 
         try {
+            console.log("hi")
             const { data } = await removeRx({
                 variables: { rxId }
-            });
             
+            });
+            console.log("hi",data)
             // upon success, remove rx's id from localStorage
             removeRxId(rxId);
         } catch (err) {
@@ -52,13 +54,12 @@ const SavedRx = () => {
                 <h2 className="mb-3">
                     {userData.savedRx?.length
                         ? `Viewing ${userData.savedRx.length} saved ${userData.savedRx.length === 1 ? 'prescription' : 'prescription'}:`
-                        : 'You have no saved prescriptions'}
+                        : 'No saved prescriptions'}
                 </h2>
                 <CardColumns>
                     {userData.savedRx?.map((rx) => {
                         return (
                             <Card key={rx.rxId} border='dark'>
-                                {rx.image ? <Card.Img src={rx.image} alt={`The cover for ${rx.title}`} variant='top' /> : null}
                                 <Card.Body>
                                     <Card.Title className="text-capitalize">
                                         <h4 className='rx-name mb-2'>{rx.brandName}</h4>
