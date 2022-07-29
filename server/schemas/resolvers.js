@@ -34,7 +34,6 @@ const resolvers = {
             return { token, user };
         },
         saveRx: async (parent, { rx }, context) => {
-            // console.log(book)
             if (context.user) {
                 const rxData = await User.findOneAndUpdate(
                     {
@@ -50,7 +49,6 @@ const resolvers = {
                         runValidators: true,
                     },
                 )
-                // console.log(bookData);
                 return rxData;
             }
             throw new AuthenticationError('You need to be logged in!');

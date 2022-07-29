@@ -1,30 +1,30 @@
-export const getSavedRxIds = () => {
-  const savedRxIds = localStorage.getItem('saved_rx')
+export const getSavedRxId = () => {
+  const savedRxId = localStorage.getItem('saved_rx')
     ? JSON.parse(localStorage.getItem('saved_rx'))
     : [];
 
-  return savedRxIds;
+  return savedRxId;
 };
 
-export const saveRxIds = (bookIdArr) => {
-  if (bookIdArr.length) {
-    localStorage.setItem('saved_rx', JSON.stringify(bookIdArr));
+export const saveRxId = (rxIdArr) => {
+  if (rxIdArr.length) {
+    localStorage.setItem('saved_rx', JSON.stringify(rxIdArr));
   } else {
     localStorage.removeItem('saved_rx');
   }
 };
 
-export const removeRxId = (bookId) => {
-  const savedRxIds = localStorage.getItem('saved_rx')
+export const removeRxId = (rxId) => {
+  const savedRxId = localStorage.getItem('saved_rx')
     ? JSON.parse(localStorage.getItem('saved_rx'))
     : null;
 
-  if (!savedRxIds) {
+  if (!savedRxId) {
     return false;
   }
 
-  const updatedSavedRxIds = savedRxIds?.filter((savedRxId) => savedRxId !== bookId);
-  localStorage.setItem('saved_rx', JSON.stringify(updatedSavedRxIds));
+  const updatedSavedRxId = savedRxId?.filter((savedRxId) => savedRxId !== rxId);
+  localStorage.setItem('saved_rx', JSON.stringify(updatedSavedRxId));
 
   return true;
 };

@@ -32,8 +32,8 @@ export const SAVE_RX = gql`
     savedRx {
       rxId
       brandName
-      genericName
-      manufacturer
+      dosageForm
+      route
     }
     rxCount
     _id
@@ -51,8 +51,8 @@ export const REMOVE_RX = gql`
     savedRx {
       rxId
       brandName
-      genericName
-      manufacturer
+      dosageForm
+      route
     }
   }
 }

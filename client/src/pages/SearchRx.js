@@ -3,25 +3,25 @@ import { Jumbotron, Container, Col, Form, Button, Card, CardColumns } from 'reac
 import Auth from '../utils/auth';
 import { SAVE_RX } from '../utils/mutations';
 import { useMutation } from '@apollo/client';
-import { saveRxIds, getSavedRxIds } from '../utils/localStorage';
+import { saveRxId, getSavedRxId } from '../utils/localStorage';
 
-const SearchRxs = () => {
+const SearchRx = () => {
   // create state for holding returned google api data
-  const [searchedRxs, setSearchedRxs] = useState([]);
+  const [searchedRx, setSearchedRx] = useState([]);
   // create state for holding our search field data
   const [searchInput, setSearchInput] = useState('');
 
   //const [showAlert, setShowAlert] = useState(false);
 
   // create state to hold saved rxId values
-  const [savedRxIds, setSavedRxIds] = useState(getSavedRxIds());
+  const [savedRxId, setSavedRxId] = useState(getSavedRxId());
 
   const [saveRx, { error }] = useMutation(SAVE_RX);
 
-  // set up useEffect hook to save `savedRxIds` list to localStorage on component unmount
+  // set up useEffect hook to save `savedRxId` list to localStorage on component unmount
   // learn more here: https://reactjs.org/docs/hooks-effect.html#effects-with-cleanup
   useEffect(() => {
-    return () => saveRxIds(savedRxIds);
+    return () => saveRxId(savedRxId);
   }, [error]);
 
   // create method to search for rx and set state on form submit
@@ -33,27 +33,29 @@ const SearchRxs = () => {
     }
 
     try {
-      const response = await fetch(`https://api.fda.gov/drug/drugsfda.json?search=openfda.brand_name:${searchInput}`);
-      console.log("hey", response)
-      
+      const response = await fetch(`https://api.fda.gov/drug/drugsfda.json?search=products.brand_name:${searchInput}`);
+
       if (!response.ok) {
         throw new Error('something went wrong!');
       }
 
       const { results } = await response.json();
 
-      console.log("hey", results[0].products)
-
-      const rxData = results[0].products.map((rx) => ({
-
-        rxId: rx.id,
+      // Removes discontinued prescriptions
+      const filteredResults = results[0].products.filter(item =>
+        item.marketing_status == "Prescription"
+      )
+    
+      // Gets data from api
+      const rxData = filteredResults.map((rx) =>
+      ({
+        rxId: rx.product_number,
         brandName: rx.brand_name,
-        // genericName: rx.results.generic_name,
-        // manufacturer: rx.results.manufacturer_name,
-      }));
-
-      console.log("hey2", rxData)
-      setSearchedRxs(rxData);
+        dosageForm: rx.dosage_form.toLowerCase(),
+        route: rx.route.toLowerCase(),
+      })
+      );
+      setSearchedRx(rxData);
       setSearchInput('');
     } catch (err) {
       console.error(err);
@@ -62,9 +64,9 @@ const SearchRxs = () => {
 
   // create function to handle saving a rx to our database
   const handleSaveRx = async (rxId) => {
-    // find the rx in `searchedRxs` state by the matching id
-    const rxToSave = searchedRxs.find((rx) => rx.rxId === rxId);
-
+    // find the rx in `searchedRx` state by the matching id
+    const rxToSave = searchedRx.find((rx) => rx.rxId === rxId);
+    console.log('rxToSave', rxToSave)
     // get token
     const token = Auth.loggedIn() ? Auth.getToken() : null;
 
@@ -73,7 +75,7 @@ const SearchRxs = () => {
     }
 
     try {
-      // console.log(rxToSave);
+      console.log('rxToSave', rxToSave)
       const { data } = await saveRx({
         variables: {
           rx: { ...rxToSave }
@@ -81,9 +83,11 @@ const SearchRxs = () => {
       });
 
       // if rx successfully saves to user's account, save rx id to state
-      setSavedRxIds([...savedRxIds, rxToSave.rxId]);
+      setSavedRxId([...savedRxId, rxToSave.rxId]);
+      console.log("saved!")
     } catch (err) {
       console.error(err);
+      console.log("not!")
     }
   };
 
@@ -118,34 +122,31 @@ const SearchRxs = () => {
       </Jumbotron>
 
       <Container>
-        <h2>
-          {searchedRxs.length
-            ? `Viewing ${searchedRxs.length} results:`
+        <h3 className="mb-3">
+          {searchedRx.length
+            ? `Viewing ${searchedRx.length} results:`
             : 'search for a prescription to begin'}
-        </h2>
+        </h3>
         <CardColumns>
-          {searchedRxs.map((rx) => {
+          {searchedRx.map((rx) => {
             return (
               <Card key={rx.rxId} border='dark'>
-                {rx.image ? (
-                  <Card.Img src={rx.image} alt={`The cover for ${rx.title}`} variant='top' />
-                ) : null}
                 <Card.Body>
-                  <Card.Title>{rx.title}</Card.Title>
-                  <p className='small'>Brand: {rx.brandName}</p>
-                  <Card.Text>{rx.description}</Card.Text>
+                  <Card.Title className="text-capitalize">
+                    <h4 className='rx-name mb-2'>{rx.brandName}</h4>
+                  </Card.Title>
+                  <Card.Text>
+                    <p className="">Form: {rx.dosageForm}, ({rx.route})</p>
+                  </Card.Text>
                   {Auth.loggedIn() && (
                     <Button
-                      // disabled={savedRxIds?.some((savedRxId) => savedRxId === rx.rxId)}
-                      className='btn-block btn-info'
+                      className='btn-info btn-light btn-outline-primary'
                       onClick={() => {
-                        // console.log(rx.rxId)
                         handleSaveRx(rx.rxId)
-
                       }}>
-                      {savedRxIds?.some((savedRxId) => savedRxId === rx.rxId)
+                      {savedRxId?.some((savedRxId) => savedRxId === rx.rxId)
                         ? 'This prescription has already been saved!'
-                        : 'Save this prescription!'}
+                        : 'save to my prescriptions'}
                     </Button>
                   )}
                 </Card.Body>
@@ -158,4 +159,4 @@ const SearchRxs = () => {
   );
 };
 
-export default SearchRxs;
+export default SearchRx;

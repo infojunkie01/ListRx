@@ -12,16 +12,16 @@ type User {
 
 type Rx {
     rxId: ID!
-    genericName: String
     brandName: String
-    manufacturer: String
+    dosageForm: String
+    route: String
 }
 
 input RxInput {
     rxId: String!
-    genericName: String
     brandName: String
-    manufacturer: String
+    dosageForm: String
+    route: String
 }
 
 type Auth {

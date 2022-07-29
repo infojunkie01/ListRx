@@ -11,7 +11,7 @@ h6 {
   font-family: sans-serif;
 }
 
-.small {
-  font-weight: 300;
-  font-style: italic;
+.rx-name{
+  font-weight: bold;
+  font-size: 18px;
 }
