@@ -85,9 +85,9 @@ const SearchRxs = () => {
 
   return (
     <>
-      <Jumbotron fluid className='text-light bg-dark'>
+      <Jumbotron fluid className='text-light bg-primary'>
         <Container>
-          <h1>Search for Rx!</h1>
+          <h1>search for a prescription</h1>
           <Form onSubmit={handleFormSubmit}>
             {/* <Alert dismissible onClose={() => setShowAlert(false)} show={showAlert} variant='danger'>
           Something went wrong with your rx search!
@@ -100,12 +100,12 @@ const SearchRxs = () => {
                   onChange={(e) => setSearchInput(e.target.value)}
                   type='text'
                   size='lg'
-                  placeholder='Search for a rx'
+                  placeholder='Search for a prescription'
                 />
               </Col>
               <Col xs={12} md={4}>
-                <Button type='submit' variant='success' size='lg'>
-                  Submit Search
+                <Button type='submit' variant='success' size='lg' className="btn-warning">
+                  search
                 </Button>
               </Col>
             </Form.Row>
@@ -117,7 +117,7 @@ const SearchRxs = () => {
         <h2>
           {searchedRxs.length
             ? `Viewing ${searchedRxs.length} results:`
-            : 'Search for a rx to begin'}
+            : 'search for a prescription to begin'}
         </h2>
         <CardColumns>
           {searchedRxs.map((rx) => {
@@ -140,8 +140,8 @@ const SearchRxs = () => {
 
                       }}>
                       {savedRxIds?.some((savedRxId) => savedRxId === rx.rxId)
-                        ? 'This rx has already been saved!'
-                        : 'Save this Rx!'}
+                        ? 'This prescription has already been saved!'
+                        : 'Save this prescription!'}
                     </Button>
                   )}
                 </Card.Body>

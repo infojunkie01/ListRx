@@ -21,7 +21,7 @@ const AppNavbar = () => {
           <Navbar.Collapse id='navbar'>
             <Nav className='ml-auto'>
               <Nav.Link as={Link} to='/'>
-                Search For Prescriptions
+                Search for prescriptions
               </Nav.Link>
               {/* if user is logged in show saved rx and logout */}
               {Auth.loggedIn() ? (
@@ -32,7 +32,7 @@ const AppNavbar = () => {
                   <Nav.Link onClick={Auth.logout}>Logout</Nav.Link>
                 </>
               ) : (
-                <Nav.Link onClick={() => setShowModal(true)}>Login/Sign Up</Nav.Link>
+                <Nav.Link onClick={() => setShowModal(true)}>Login/Sign up</Nav.Link>
               )}
             </Nav>
           </Navbar.Collapse>
