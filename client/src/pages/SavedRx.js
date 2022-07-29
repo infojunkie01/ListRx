@@ -14,7 +14,6 @@ const SavedRx = () => {
 
     const userData = data?.me || {};
 
-
     // create function that accepts the rx's mongo _id value as param and deletes the rx from the database
     const handleDeleteRx = async (rxId) => {
         const token = Auth.loggedIn() ? Auth.getToken() : null;
@@ -28,9 +27,9 @@ const SavedRx = () => {
             console.log("hi")
             const { data } = await removeRx({
                 variables: { rxId }
-            
+
             });
-            console.log("hi",data)
+            console.log("hi", data)
             // upon success, remove rx's id from localStorage
             removeRxId(rxId);
         } catch (err) {

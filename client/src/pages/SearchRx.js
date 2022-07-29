@@ -45,7 +45,7 @@ const SearchRx = () => {
       const filteredResults = results[0].products.filter(item =>
         item.marketing_status == "Prescription"
       )
-    
+
       // Gets data from api
       const rxData = filteredResults.map((rx) =>
       ({
