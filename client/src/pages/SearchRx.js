@@ -34,21 +34,25 @@ const SearchRxs = () => {
 
     try {
       const response = await fetch(`https://api.fda.gov/drug/drugsfda.json?search=openfda.brand_name:${searchInput}`);
-
+      console.log("hey", response)
+      
       if (!response.ok) {
         throw new Error('something went wrong!');
       }
 
-      const { items } = await response.json();
+      const { results } = await response.json();
 
-      const rxData = items.map((rx) => ({
+      console.log("hey", results[0].products)
+
+      const rxData = results[0].products.map((rx) => ({
+
         rxId: rx.id,
-        // authors: rx.volumeInfo.authors || ['No author to display'],
-        // title: rx.volumeInfo.title,
-        // description: rx.volumeInfo.description,
-        // image: rx.volumeInfo.imageLinks?.thumbnail || '',
+        brandName: rx.brand_name,
+        // genericName: rx.results.generic_name,
+        // manufacturer: rx.results.manufacturer_name,
       }));
 
+      console.log("hey2", rxData)
       setSearchedRxs(rxData);
       setSearchInput('');
     } catch (err) {
@@ -128,7 +132,7 @@ const SearchRxs = () => {
                 ) : null}
                 <Card.Body>
                   <Card.Title>{rx.title}</Card.Title>
-                  <p className='small'>Authors: {rx.authors}</p>
+                  <p className='small'>Brand: {rx.brandName}</p>
                   <Card.Text>{rx.description}</Card.Text>
                   {Auth.loggedIn() && (
                     <Button

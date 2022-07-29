@@ -1,0 +1,738 @@
+{
+    "kind": "books#volumes",
+    "totalItems": 2432,
+    "items": [
+      {
+        "kind": "books#volume",
+        "id": "kLAoswEACAAJ",
+        "etag": "ISYe8sUtZwY",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/kLAoswEACAAJ",
+        "volumeInfo": {
+          "title": "Harry Potter and the Cursed Child",
+          "authors": [
+            "J. K. Rowling",
+            "Jack Thorne",
+            "John Tiffany"
+          ],
+          "publisher": "Sphere",
+          "publishedDate": "2017-07-25",
+          "description": "The official playscript of the original West End production of Harry Potter and the Cursed Child. It was always difficult being Harry Potter and it isn't much easier now that he is an overworked employee of the Ministry of Magic, a husband, and father of three school-age children. While Harry grapples with a past that refuses to stay where it belongs, his youngest son Albus must struggle with the weight of a family legacy he never wanted. As past and present fuse ominously, both father and son learn the uncomfortable truth: sometimes, darkness comes from unexpected places. The playscript for Harry Potter and the Cursed Child was originally released as a 'special rehearsal edition' alongside the opening of Jack Thorne's play in London's West End in summer 2016. Based on an original story by J.K. Rowling, John Tiffany and Jack Thorne, the play opened to rapturous reviews from theatregoers and critics alike, while the official playscript became an immediate global bestseller. This revised paperback edition updates the 'special rehearsal edition' with the conclusive and final dialogue from the play, which has subtly changed since its rehearsals, as well as a conversation piece between director John Tiffany and writer Jack Thorne, who share stories and insights about reading playscripts. This edition also includes useful background information including the Potter family tree and a timeline of events from the wizarding world prior to the beginning of Harry Potter and the Cursed Child.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_10",
+              "identifier": "0751565369"
+            },
+            {
+              "type": "ISBN_13",
+              "identifier": "9780751565362"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": false
+          },
+          "pageCount": 352,
+          "printType": "BOOK",
+          "categories": [
+            "Fiction"
+          ],
+          "averageRating": 3,
+          "ratingsCount": 4,
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "preview-1.0.0",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=kLAoswEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=kLAoswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=kLAoswEACAAJ&dq=harry+potter&hl=&cd=1&source=gbs_api",
+          "infoLink": "http://books.google.com/books?id=kLAoswEACAAJ&dq=harry+potter&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/Harry_Potter_and_the_Cursed_Child.html?hl=&id=kLAoswEACAAJ"
+        },
+        "saleInfo": {
+          "country": "US",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "US",
+          "viewability": "NO_PAGES",
+          "embeddable": false,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=kLAoswEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+          "accessViewStatus": "NONE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "As an overworked employee of the Ministry of Magic, a husband, and a father, Harry Potter struggles with a past that refuses to stay where it belongs while his youngest son, Albus, finds the weight of the family legacy difficult to bear."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "lMM4jgEACAAJ",
+        "etag": "9PdwyRt1yJo",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/lMM4jgEACAAJ",
+        "volumeInfo": {
+          "title": "Harry Potter Coloring Book",
+          "authors": [
+            "Inc. Scholastic"
+          ],
+          "publisher": "Scholastic Incorporated",
+          "publishedDate": "2015-11-10",
+          "description": "Packed with stunning pieces of artwork from the Warner Bros. archive, this deluxe coloring book gives fans the chance to color in the vivid settings and beloved characters of J.K. Rowling's wizarding world. Containing intricate line drawings used in the making of the Harry Potter films, this coloring book includes fan-favorite scenes, creatures, and characters: from Dobby and baby Norbert to Quidditch games and the unforgettable final battle between Harry and Lord Voldemort. Unique and interactive, Harry Potter: The Official Coloring Book is a perfect collector's item for all fans of the blockbuster saga--whether it's for those who grew up with Harry, Ron, and Hermione, or those who are discovering the magic for the very first time.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_10",
+              "identifier": "1338029991"
+            },
+            {
+              "type": "ISBN_13",
+              "identifier": "9781338029994"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": false
+          },
+          "pageCount": 96,
+          "printType": "BOOK",
+          "categories": [
+            "Juvenile Fiction"
+          ],
+          "averageRating": 3,
+          "ratingsCount": 2,
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "preview-1.0.0",
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=lMM4jgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=lMM4jgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=lMM4jgEACAAJ&dq=harry+potter&hl=&cd=2&source=gbs_api",
+          "infoLink": "http://books.google.com/books?id=lMM4jgEACAAJ&dq=harry+potter&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/Harry_Potter_Coloring_Book.html?hl=&id=lMM4jgEACAAJ"
+        },
+        "saleInfo": {
+          "country": "US",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "US",
+          "viewability": "NO_PAGES",
+          "embeddable": false,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=lMM4jgEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+          "accessViewStatus": "NONE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "Filled with intricate illustrations and elaborate designs used in the making of the Harry Potter films, this book invites you to imbue the wizarding world with color in your own explorations of Hogwarts Castle, the Forbidden Forest, and ..."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "LbnwCQAAQBAJ",
+        "etag": "j0ZU4yNarDs",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/LbnwCQAAQBAJ",
+        "volumeInfo": {
+          "title": "Playing Harry Potter",
+          "subtitle": "Essays and Interviews on Fandom and Performance",
+          "authors": [
+            "Lisa S. Brenner"
+          ],
+          "publisher": "McFarland",
+          "publishedDate": "2015-06-11",
+          "description": "Through classroom activities, wizard rock concerts, and organizations like the Harry Potter Alliance, Harry Potter fans are using creativity to positively impact the world. This collection of essays and interviews examines how playful fandom--from fanfiction to Muggle quidditch, cosplay, role-playing games, and even Harry Potter burlesque--not only reimagines the canon but also challenges consumerism, questions notions of identity, and fosters participatory culture. The contributors explore issues applicable to fan studies and performance studies at large, such as the role of performance, the nature of community, and questions of representation and ownership in the digital age. Presented in three parts, the essays discuss discrepancies between sanctioned versions of Harry Potter and fan creations, the reenactment and reinterpretation of the original narrative in fan performance, and collaborative and participatory performances that break down the boundaries between actors and audiences.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9780786496570"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "0786496576"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "pageCount": 238,
+          "printType": "BOOK",
+          "categories": [
+            "Literary Criticism"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "preview-1.0.0",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=LbnwCQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=LbnwCQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=LbnwCQAAQBAJ&printsec=frontcover&dq=harry+potter&hl=&cd=3&source=gbs_api",
+          "infoLink": "http://books.google.com/books?id=LbnwCQAAQBAJ&dq=harry+potter&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/Playing_Harry_Potter.html?hl=&id=LbnwCQAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "US",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "US",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=LbnwCQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "This collection of essays and interviews examines how playful fandom--from fanfiction to Muggle quidditch, cosplay, role-playing games, and even Harry Potter burlesque--not only reimagines the canon but also challenges consumerism, ..."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "L18VBQAAQBAJ",
+        "etag": "x7m/U26UIV4",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/L18VBQAAQBAJ",
+        "volumeInfo": {
+          "title": "The Psychology of Harry Potter",
+          "subtitle": "An Unauthorized Examination Of The Boy Who Lived",
+          "authors": [
+            "Neil Mulholland"
+          ],
+          "publisher": "BenBella Books",
+          "publishedDate": "2007-04-10",
+          "description": "Harry Potter has provided a portal to the wizarding world for millions of readers, but an examination of Harry, his friends and his enemies will take us on yet another journey: through the psyche of the Muggle (and wizard!) mind. The twists and turns of the series, as well as the psychological depth and complexity of J. K. Rowling’s characters, have kept fans enthralled with and puzzling over the many mysteries that permeate Hogwarts and beyond: • Do the Harry Potter books encourage disobedience? • Why is everyone so fascinated by Professor Lupin? • What exactly will Harry and his friends do when they finally pass those N.E.W.T.s? • Do even wizards live by the ticking of the clock? • Is Harry destined to end up alone? And why did it take Ron and Hermione so long to get together? Now, in The Psychology of Harry Potter, leading psychologists delve into the ultimate Chamber of Secrets, analyzing human mind and motivation by examining the themes and characters that make the Harry Potter books the bestselling fantasy series of all time. Grab a spot on the nearest couch, and settle in for some fresh revelations about our favorite young wizard!",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9781932100884"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "1932100881"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": false
+          },
+          "pageCount": 326,
+          "printType": "BOOK",
+          "categories": [
+            "Literary Criticism"
+          ],
+          "averageRating": 3.5,
+          "ratingsCount": 5,
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "0.1.1.0.preview.0",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=L18VBQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=L18VBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=L18VBQAAQBAJ&printsec=frontcover&dq=harry+potter&hl=&cd=4&source=gbs_api",
+          "infoLink": "http://books.google.com/books?id=L18VBQAAQBAJ&dq=harry+potter&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/The_Psychology_of_Harry_Potter.html?hl=&id=L18VBQAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "US",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "US",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=L18VBQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "Now, in The Psychology of Harry Potter, leading psychologists delve into the ultimate Chamber of Secrets, analyzing human mind and motivation by examining the themes and characters that make the Harry Potter books the bestselling fantasy ..."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "eq9XvgAACAAJ",
+        "etag": "LXLGrj8gYRk",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/eq9XvgAACAAJ",
+        "volumeInfo": {
+          "title": "Fantastic Beasts and Where to Find Them: Cinematic Guide: Newt Scamander Do Not Feed Out",
+          "authors": [
+            "Felicity Baker"
+          ],
+          "publishedDate": "2017-02-02",
+          "description": "The essential film companion for Newt Scamander! Relive the magic of Newt's world with this hardback guidebook featuring your favourite scenes and quotes from Fantastic Beasts and Where to Find Them.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_10",
+              "identifier": "1407179403"
+            },
+            {
+              "type": "ISBN_13",
+              "identifier": "9781407179407"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": false
+          },
+          "pageCount": 64,
+          "printType": "BOOK",
+          "averageRating": 3,
+          "ratingsCount": 2,
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "preview-1.0.0",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=eq9XvgAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=eq9XvgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=eq9XvgAACAAJ&dq=harry+potter&hl=&cd=5&source=gbs_api",
+          "infoLink": "http://books.google.com/books?id=eq9XvgAACAAJ&dq=harry+potter&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/Fantastic_Beasts_and_Where_to_Find_Them.html?hl=&id=eq9XvgAACAAJ"
+        },
+        "saleInfo": {
+          "country": "US",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "US",
+          "viewability": "NO_PAGES",
+          "embeddable": false,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=eq9XvgAACAAJ&hl=&printsec=frontcover&source=gbs_api",
+          "accessViewStatus": "NONE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "Relive all the magic of Newt&#39;s world with this hardback guidebook featuring all you need to know about Newt from the movie."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "Wy-Kxu3A7x8C",
+        "etag": "9aUcbh5imjo",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/Wy-Kxu3A7x8C",
+        "volumeInfo": {
+          "title": "Teaching with Harry Potter",
+          "subtitle": "Essays on Classroom Wizardry from Elementary School to College",
+          "authors": [
+            "Valerie Estelle Frankel"
+          ],
+          "publisher": "McFarland",
+          "publishedDate": "2013-02-21",
+          "description": "The Harry Potter phenomenon created a surge in reading with a lasting effect on all areas of culture, especially education. Today, teachers across the world are harnessing the power of the series to teach history, gender studies, chemistry, religion, philosophy, sociology, architecture, Latin, medieval studies, astronomy, SAT skills, and much more. These essays discuss the diverse educational possibilities of J.K. Rowling's books. Teachers of younger students use Harry and Hermione to encourage kids with disabilities or show girls the power of being brainy scientists. Students are reading fanfiction, splicing video clips, or exploring Rowling's new website, Pottermore. Harry Potter continues to open new doors to learning.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9780786472017"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "0786472014"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "pageCount": 288,
+          "printType": "BOOK",
+          "categories": [
+            "Literary Criticism"
+          ],
+          "averageRating": 4,
+          "ratingsCount": 13,
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "preview-1.0.0",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=Wy-Kxu3A7x8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=Wy-Kxu3A7x8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=Wy-Kxu3A7x8C&printsec=frontcover&dq=harry+potter&hl=&cd=6&source=gbs_api",
+          "infoLink": "http://books.google.com/books?id=Wy-Kxu3A7x8C&dq=harry+potter&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/Teaching_with_Harry_Potter.html?hl=&id=Wy-Kxu3A7x8C"
+        },
+        "saleInfo": {
+          "country": "US",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "US",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=Wy-Kxu3A7x8C&hl=&printsec=frontcover&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "These essays discuss the diverse educational possibilities of J.K. Rowling&#39;s books. Teachers of younger students use Harry and Hermione to encourage kids with disabilities or show girls the power of being brainy scientists."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "JHEkAQAAMAAJ",
+        "etag": "l04B2fvY/F0",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/JHEkAQAAMAAJ",
+        "volumeInfo": {
+          "title": "Harry Potter and the Deathly Hallows",
+          "authors": [
+            "J. K. Rowling"
+          ],
+          "publisher": "Arthur a Levine",
+          "publishedDate": "2007",
+          "description": "The seventh and final book of the blockbuster Harry Potter series follows the wizard's last year at Hogwarts School of Witchcraft and Wizardry. 12,000,000 first printing.",
+          "industryIdentifiers": [
+            {
+              "type": "OTHER",
+              "identifier": "UOM:39076002651854"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": false
+          },
+          "pageCount": 870,
+          "printType": "BOOK",
+          "categories": [
+            "Juvenile Fiction"
+          ],
+          "averageRating": 4.5,
+          "ratingsCount": 3450,
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "0.1.1.0.preview.0",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=JHEkAQAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=JHEkAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=JHEkAQAAMAAJ&q=harry+potter&dq=harry+potter&hl=&cd=7&source=gbs_api",
+          "infoLink": "http://books.google.com/books?id=JHEkAQAAMAAJ&dq=harry+potter&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/Harry_Potter_and_the_Deathly_Hallows.html?hl=&id=JHEkAQAAMAAJ"
+        },
+        "saleInfo": {
+          "country": "US",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "US",
+          "viewability": "NO_PAGES",
+          "embeddable": false,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=JHEkAQAAMAAJ&hl=&printsec=frontcover&source=gbs_api",
+          "accessViewStatus": "NONE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "The seventh and final book of the blockbuster Harry Potter series follows the wizard&#39;s last year at Hogwarts School of Witchcraft and Wizardry. 12,000,000 first printing."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "uEoiEAAAQBAJ",
+        "etag": "OaDvBWrkoyI",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/uEoiEAAAQBAJ",
+        "volumeInfo": {
+          "title": "Harry Potter Hand Lettering",
+          "authors": [
+            "Jay Roeder"
+          ],
+          "publisher": "Simon and Schuster",
+          "publishedDate": "2021-01-19",
+          "description": "Presents step-by-step instructions for a wide range of lettering styles and graphical illustrations inspired by the Harry Potter movies.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9781645171485"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "1645171485"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": false
+          },
+          "pageCount": 176,
+          "printType": "BOOK",
+          "categories": [
+            "Art"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "1.0.0.0.preview.0",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=uEoiEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=uEoiEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=uEoiEAAAQBAJ&printsec=frontcover&dq=harry+potter&hl=&cd=8&source=gbs_api",
+          "infoLink": "http://books.google.com/books?id=uEoiEAAAQBAJ&dq=harry+potter&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/Harry_Potter_Hand_Lettering.html?hl=&id=uEoiEAAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "US",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "US",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=uEoiEAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "Presents step-by-step instructions for a wide range of lettering styles and graphical illustrations inspired by the Harry Potter movies."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "968eEAAAQBAJ",
+        "etag": "SpV2XzvzJ7I",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/968eEAAAQBAJ",
+        "volumeInfo": {
+          "title": "Harry Potter: The Wand Collection (Book)",
+          "authors": [
+            "Monique Peterson"
+          ],
+          "publisher": "Insight Editions",
+          "publishedDate": "2017-11-14",
+          "description": "Discover the wands of your favorite Harry Potter characters. In the Harry Potter films, each wand is as unique as the witch or wizard who wields it. From Hermione Granger’s elegant, vine-wrapped wand to the bone-inlaid wands of the Death Eaters, each was designed and crafted by the filmmakers to reflect its owner’s identity. Harry Potter: The Wand Collection is a visual guide to these magical wands, their makers, and the characters who mastered them. Profiles of each wand feature stunning new photography of the original props, wand statistics, insights from the cast and crew, and other filmmaking secrets from the Warner Bros. archive. This collectible volume is an ideal resource for both wand-wielding veteran fans seeking to learn the history behind these beloved items and a new generation just beginning their journey into the wizarding world.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9781683831884"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "1683831888"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": false
+          },
+          "pageCount": 154,
+          "printType": "BOOK",
+          "categories": [
+            "Performing Arts"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "preview-1.0.0",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=968eEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=968eEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=968eEAAAQBAJ&printsec=frontcover&dq=harry+potter&hl=&cd=9&source=gbs_api",
+          "infoLink": "http://books.google.com/books?id=968eEAAAQBAJ&dq=harry+potter&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/Harry_Potter_The_Wand_Collection_Book.html?hl=&id=968eEAAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "US",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "US",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=968eEAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "This collectible volume is an ideal resource for both wand-wielding veteran fans seeking to learn the history behind these beloved items and a new generation just beginning their journey into the wizarding world."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "_S-joAEACAAJ",
+        "etag": "Zbw/te20rOw",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/_S-joAEACAAJ",
+        "volumeInfo": {
+          "title": "Harry Potter: The Creature Vault",
+          "subtitle": "The Creatures and Plants of the Harry Potter Films",
+          "authors": [
+            "Jody Revenson"
+          ],
+          "publisher": "Harper Design",
+          "publishedDate": "2014-10-28",
+          "description": "Dementors and House-elves, merpeople and Chinese Fireball Dragons—these are just a few of the magical creatures and frightening monsters populating J. K. Rowling's wizarding world. Harry Potter: The Creature Vault is a fascinating look at how this menagerie was brought to life for the blockbuster Harry Potter film series. Detailed profiles of each creature include rare concept illustrations, behind-the-scenes photography, and filmmaking secrets from the Warner Bros. archive. A removable poster picturing each of the creatures and an interactive Eeylops Owl Emporium catalog complete this must-have package.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_10",
+              "identifier": "0062374230"
+            },
+            {
+              "type": "ISBN_13",
+              "identifier": "9780062374233"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": false
+          },
+          "pageCount": 208,
+          "printType": "BOOK",
+          "categories": [
+            "Performing Arts"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "preview-1.0.0",
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=_S-joAEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=_S-joAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.com/books?id=_S-joAEACAAJ&dq=harry+potter&hl=&cd=10&source=gbs_api",
+          "infoLink": "http://books.google.com/books?id=_S-joAEACAAJ&dq=harry+potter&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/Harry_Potter_The_Creature_Vault.html?hl=&id=_S-joAEACAAJ"
+        },
+        "saleInfo": {
+          "country": "US",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "US",
+          "viewability": "NO_PAGES",
+          "embeddable": false,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=_S-joAEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+          "accessViewStatus": "NONE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "Harry Potter: The Creature Vault is a fascinating look at how this menagerie was brought to life for the blockbuster Harry Potter film series."
+        }
+      }
+    ]
+  }
