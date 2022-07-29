@@ -12,14 +12,14 @@ type User {
 
 type Rx {
     rxId: ID!
-    genericName: [String]
+    genericName: String
     brandName: String
     manufacturer: String
 }
 
 input RxInput {
-    productId: String!
-    genericName: [String]
+    rxId: String!
+    genericName: String
     brandName: String
     manufacturer: String
 }

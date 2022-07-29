@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Jumbotron, Container, Col, Form, Button, Card, CardColumns } from 'react-bootstrap';
 import Auth from '../utils/auth';
-import { SAVE_BOOK } from '../utils/mutations';
+import { SAVE_RX } from '../utils/mutations';
 import { useMutation } from '@apollo/client';
 import { saveRxIds, getSavedRxIds } from '../utils/localStorage';
 
@@ -16,7 +16,7 @@ const SearchRxs = () => {
   // create state to hold saved rxId values
   const [savedRxIds, setSavedRxIds] = useState(getSavedRxIds());
 
-  const [saveRx, { error }] = useMutation(SAVE_BOOK);
+  const [saveRx, { error }] = useMutation(SAVE_RX);
 
   // set up useEffect hook to save `savedRxIds` list to localStorage on component unmount
   // learn more here: https://reactjs.org/docs/hooks-effect.html#effects-with-cleanup
@@ -33,7 +33,7 @@ const SearchRxs = () => {
     }
 
     try {
-      const response = await fetch(`https://www.googleapis.com/rx/v1/volumes?q=${searchInput}`);
+      const response = await fetch(`https://api.fda.gov/drug/drugsfda.json?search=openfda.brand_name:${searchInput}`);
 
       if (!response.ok) {
         throw new Error('something went wrong!');
