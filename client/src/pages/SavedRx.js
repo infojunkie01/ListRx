@@ -8,7 +8,7 @@ import { removeRxId } from '../utils/localStorage';
 
 const SavedRx = () => {
 
-    const [removeRx, { error }] = useMutation(REMOVE_RX);
+    const [removeRx] = useMutation(REMOVE_RX);
 
     const { loading, data } = useQuery(GET_ME);
 
